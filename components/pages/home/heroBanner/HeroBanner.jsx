@@ -17,9 +17,10 @@ function HeroBanner() {
   const { data, loading } = useFetch("/movie/upcoming");
   useEffect(() => {
     const bg =
-      url.backdrop +
+      url?.backdrop +
       data?.results?.[Math.floor(Math.random() * 20)]?.backdrop_path;
     setBackground(bg);
+   
    
   }, [data]);
 
