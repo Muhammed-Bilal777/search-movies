@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 
 import useFetch from "../../../../src/hooks/useFetch";
 import ContentWrapper from "../../../contentWrapper/ContentWrapper";
-import Img from "../../../lazyLoadingImage/img";
+import Img from "../../../lazyLoadingImage/Img";
 import "./style.scss";
 
 function HeroBanner() {
