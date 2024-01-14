@@ -1,5 +1,5 @@
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: serif;
   font-size: 16px;
   line-height: 1;
   font-weight: 500;
@@ -15,9 +15,9 @@
   --black3: #020c1b;
   --black-lighter: #1c4b91;
   --black-light: #173d77;
-  --pink: #da2f68;
+  --pink:  rgb(245 135 165);
   --orange: #f89e00;
-  --gradient: linear-gradient(98.37deg, #f89e00 0.99%, #da2f68 100%);
+  --gradient: linear-gradient(98deg, rgba(255,130,0,1) 3%, rgba(231,14,125,0.9206057422969187) 32%);
 }
 
 * {

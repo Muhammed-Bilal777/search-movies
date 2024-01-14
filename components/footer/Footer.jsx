@@ -5,6 +5,8 @@ import {
     FaTwitter,
     FaLinkedin,
 } from "react-icons/fa";
+import {Link} from "react-router-dom"
+import { RiAccountCircleLine } from "react-icons/ri";
 
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
@@ -14,34 +16,36 @@ const Footer = () => {
         <footer className="footer">
             <ContentWrapper>
                 <ul className="menuItems">
-                    <li className="menuItem">Terms Of Use</li>
-                    <li className="menuItem">Privacy-Policy</li>
+                    <li className="menuItem">Developed by Muhammed Bilal</li>
+                    {/* <li className="menuItem">Privacy-Policy</li>
                     <li className="menuItem">About</li>
                     <li className="menuItem">Blog</li>
-                    <li className="menuItem">FAQ</li>
+                    <li className="menuItem">FAQ</li> */}
+                   
+                    
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur.
+                    Click below icons to follow me, thanks
                 </div>
                 <div className="socialIcons">
+                     
+                   
                     <span className="icon">
-                        <FaFacebookF />
+                        <Link  className="link-icon" to="https://in.linkedin.com/in/muhammed-bilal-409343218" target="_blank"><FaLinkedin /></Link>
                     </span>
                     <span className="icon">
-                        <FaInstagram />
+                       <Link  className="link-icon" to="https://muhammed-bilal777.github.io/my-react-app/" target="_blank"> <RiAccountCircleLine /> </Link>
                     </span>
                     <span className="icon">
-                        <FaTwitter />
+                        
+                        <Link className="link-icon" to="https://www.instagram.com/muhammed_bilal_07_/"  target="_blank"  ><FaInstagram  /></Link>
+                       
                     </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+                    
                 </div>
+                <div  className="copy-right">
+                    <span>© 2024 Muhammed Bilal</span>
+                    </div>
             </ContentWrapper>
         </footer>
     );

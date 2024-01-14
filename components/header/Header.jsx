@@ -7,7 +7,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 import "./style.scss";
 
  import ContentWrapper from "../../components/contentWrapper/ContentWrapper"
-import logo from "../../src/assets/movix-logo.svg"
+import logo from "../../src/assets/cinema-hub-high-resolution-logo-transparent.png"
 
 
  
